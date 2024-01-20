@@ -1,0 +1,30 @@
+/* styles/CompanyDetails.css */
+.company-details-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  h1, h2 {
+    color: #3498db;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  

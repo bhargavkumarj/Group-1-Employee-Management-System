@@ -1,0 +1,47 @@
+/* src/components/EmployeeTable.css */
+
+/* Style the table container */
+div {
+  /* margin: 20px; */
+  overflow: auto; /* Enable scrolling */
+  /* max-height: 400px; Set a maximum height for the container */
+}
+
+  
+  /* Style the table headers */
+  table {
+    width: 100%; /* Set the width to 11 fractional units */
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+  }
+  
+  thead {
+    background-color: #3498db; /* Blue color */
+    color: #fff; /* White text */
+    font-size: 18px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Light gray border */
+  }
+  
+  /* Style alternating rows for better readability */
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray background for even rows */
+  }
+  
+  /* Hover effect on rows */
+  tbody tr:hover {
+    background-color: #80d8ed; /* Light blue background on hover */
+  }
+  
+  .update-button {
+    margin-right: 8px; /* Adjust the value to your preference */
+  }
+  
+  .delete-button {
+    background-color: red;
+    /* You can add additional styles for the delete button if needed */
+  }
